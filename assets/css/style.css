@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("../images/pdxcarpet.png");
+ 
+    height: 100%;
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.triviaCard {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    background-color: lightcoral;
+    height: 60%;
+    width: 70%;
+}
+
+#header {
+    text-align: center;
+    font-size: 48px;
+    color: #505050;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#question {
+    padding: 20px 20px 50px 20px;
+    font-size: 28px;
+    color: #505050;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.answer {
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+    color: #505050;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    color: #505050;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    width: 130px;
+    margin: 0 10px 0 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+#countDown {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-size: 28px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.results {
+    visibility: hidden;
+    font-size: 18px;
+    color: #505050;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0 20px 0;
+    width: 130px;
+    margin: auto;
+    text-align: center;
+    
+}
+
